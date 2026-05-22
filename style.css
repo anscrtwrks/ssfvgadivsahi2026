@@ -1,0 +1,324 @@
+:root{
+    --bg:#050505;
+    --card:rgba(255,255,255,0.05);
+    --border:rgba(255,255,255,0.08);
+    --text:#f5f5f5;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    font-size:16px;
+}
+
+body{
+
+    min-height:100vh;
+    min-height:100dvh;
+
+    overflow:hidden;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    padding:
+    max(20px, env(safe-area-inset-top))
+    20px
+    max(20px, env(safe-area-inset-bottom));
+
+    background:
+    radial-gradient(circle at top left,
+    rgba(255,255,255,0.08),
+    transparent 30%),
+
+    radial-gradient(circle at bottom right,
+    rgba(255,255,255,0.05),
+    transparent 30%),
+
+    linear-gradient(135deg,#050505,#101010,#171717);
+
+    font-family:'Inter',sans-serif;
+
+    color:var(--text);
+
+    position:relative;
+}
+
+/* TEXTURE */
+
+body::before{
+
+    content:"";
+
+    position:absolute;
+    inset:0;
+
+    background-image:
+    radial-gradient(rgba(255,255,255,0.035) 1px,
+    transparent 1px);
+
+    background-size:3px 3px;
+
+    opacity:.15;
+
+    pointer-events:none;
+}
+
+/* GLOWS */
+
+.glow{
+
+    position:absolute;
+
+    width:40vw;
+    height:40vw;
+
+    min-width:220px;
+    min-height:220px;
+
+    max-width:500px;
+    max-height:500px;
+
+    border-radius:50%;
+
+    filter:blur(100px);
+
+    background:rgba(255,255,255,0.06);
+
+    pointer-events:none;
+}
+
+.glow1{
+    top:-15%;
+    left:-10%;
+}
+
+.glow2{
+    bottom:-15%;
+    right:-10%;
+}
+
+/* CARD */
+
+.card{
+
+    width:min(920px,100%);
+
+    padding:
+    clamp(28px,5vw,70px);
+
+    border-radius:32px;
+
+    background:var(--card);
+
+    border:1px solid var(--border);
+
+    backdrop-filter:blur(18px);
+
+    -webkit-backdrop-filter:blur(18px);
+
+    box-shadow:
+    0 10px 40px rgba(0,0,0,0.45),
+    inset 0 0 0 1px rgba(255,255,255,0.03);
+
+    text-align:center;
+
+    position:relative;
+
+    overflow:hidden;
+
+    animation:fadeUp 1s ease;
+}
+
+/* INNER LIGHT */
+
+.card::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+    linear-gradient(
+    135deg,
+    rgba(255,255,255,0.06),
+    transparent 30%);
+
+    pointer-events:none;
+}
+
+/* QUOTE MARK */
+
+.quote-mark{
+
+    font-size:
+    clamp(4rem,10vw,7rem);
+
+    line-height:1;
+
+    opacity:.14;
+
+    margin-bottom:10px;
+
+    font-family:'Cormorant Garamond',serif;
+}
+
+/* QUOTE */
+
+.quote{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:
+    clamp(2rem,5vw,4.5rem);
+
+    line-height:1.25;
+
+    font-weight:500;
+
+    letter-spacing:.2px;
+
+    color:var(--text);
+
+    text-shadow:
+    0 0 25px rgba(255,255,255,0.05);
+
+    min-height:
+    clamp(140px,30vh,240px);
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    transition:.35s ease;
+
+    padding-inline:10px;
+}
+
+/* FOOTER */
+
+.footer{
+
+    margin-top:28px;
+
+    font-size:
+    clamp(.7rem,2vw,.85rem);
+
+    letter-spacing:4px;
+
+    text-transform:uppercase;
+
+    opacity:.45;
+}
+
+/* BUTTON */
+
+.btn{
+
+    margin-top:38px;
+
+    border:none;
+
+    outline:none;
+
+    cursor:pointer;
+
+    padding:
+    14px 28px;
+
+    border-radius:999px;
+
+    background:
+    rgba(255,255,255,0.07);
+
+    border:1px solid rgba(255,255,255,0.1);
+
+    color:white;
+
+    font-size:.85rem;
+
+    font-weight:500;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    transition:.3s ease;
+
+    backdrop-filter:blur(10px);
+
+    -webkit-tap-highlight-color:transparent;
+}
+
+.btn:hover{
+
+    transform:translateY(-2px);
+
+    background:
+    rgba(255,255,255,0.12);
+
+    box-shadow:
+    0 10px 30px rgba(255,255,255,0.08);
+}
+
+.btn:active{
+    transform:scale(.97);
+}
+
+/* ANIMATION */
+
+@keyframes fadeUp{
+
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+/* SMALL DEVICES */
+
+@media (max-width:600px){
+
+    .card{
+        border-radius:26px;
+    }
+
+    .footer{
+        letter-spacing:3px;
+    }
+
+    .btn{
+        width:100%;
+    }
+
+}
+
+/* LANDSCAPE MOBILE */
+
+@media (max-height:500px){
+
+    body{
+        padding:20px;
+    }
+
+    .quote{
+        min-height:auto;
+    }
+
+    .btn{
+        margin-top:20px;
+    }
+
+}
