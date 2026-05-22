@@ -6,7 +6,7 @@ const quotes = [
 
 "Your imagination is your greatest luxury.",
 
-"Art starts where logic gets tired.",
+"Art starjnnjts where logic gets tired.",
 
 "Some ideas deserve silence before applause.",
 
