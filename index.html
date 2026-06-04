@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="ml">
+<html lang="en">
+
 <head>
 
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Unscanned Codes</title>
 
@@ -20,50 +21,67 @@
 
 <body>
 
-<header>
+<div id="storyCapture">
 
-<img
-src="banner.png"
-class="banner"
-alt="Sahityotsav">
+    <div class="noise"></div>
 
-</header>
+    <header>
 
-<main id="captureArea">
+        <img
+        src="banner.png"
+        class="banner"
+        alt="Banner">
 
-<div class="frame-container">
+    </header>
 
-<img
-src="frame-story.png"
-class="frame portrait-frame">
+    <main>
 
-<img
-src="frame-landscape.png"
-class="frame landscape-frame">
+        <div
+        id="poster"
+        class="poster">
 
-<div class="content-zone">
+            <img
+            src="frame-story.png"
+            class="frame"
+            alt="Frame">
 
-<div id="quote" class="quote"></div>
+            <div
+            id="quoteContainer"
+            class="content-zone">
+
+                <div
+                id="quote"
+                class="quote">
+                Loading...
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    
 
 </div>
-
-</div>
-
-</main>
-
 
 
 <button
-class="share-btn"
+class="story-btn"
 onclick="shareStory()">
 
-<svg viewBox="0 0 24 24">
-<path d="M18 16.1c-.76 0-1.44.3-1.96.77L8.91 12.7A3.27 3.27 0 0 0 9 12c0-.24-.03-.47-.09-.7l7-4.11A2.99 2.99 0 1 0 15 5a3 3 0 0 0 .09.7l-7 4.11A3 3 0 1 0 6 15a2.99 2.99 0 0 0 2.04-.81l7.12 4.17c-.05.2-.08.41-.08.64a3 3 0 1 0 3-2.9z"/>
-</svg>
+<img
+src="story-icon.png"
+alt="Story">
+
+<span>
+Share as Story
+</span>
 
 </button>
 
 <script src="script.js"></script>
 
 </body>
+
 </html>

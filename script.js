@@ -1,10 +1,7 @@
-
-const quoteElement =
-    document.getElementById("quote");
-
 const quotes = [
 
-    "Rain and Memories - The old man who sat by the bus window always had tears in his eyes. Everyone thought it was the rain outside. No one knew they were memories of a spring he had lost long ago during a rainy season.",
+    
+     "Rain and Memories - The old man who sat by the bus window always had tears in his eyes. Everyone thought it was the rain outside. No one knew they were memories of a spring he had lost long ago during a rainy season.",
     "The Weight of Silence - Every evening, he sat alone on the park bench without speaking to anyone. People thought he was proud. In truth, his silence carried all the words he had saved for a world that never waited to hear his voice.",
     "The Old Diary - The pages of her old diary smelled of love. But only the dried peacock feather hidden between its pages knew the pain of a love that never found its destination.",
     "Behind the Smile - He was the funniest person in the office, always making others laugh. Yet every night he wiped away his own tears while caring for his sick mother, wearing a smile only when daylight arrived.",
@@ -108,87 +105,143 @@ const quotes = [
 
 
 
+
+
 ];
 
+const quoteElement =
+document.getElementById(
+"quote"
+);
 
-function randomQuote() {
+function fitText(){
 
-    const quote =
-        quotes[
-        Math.floor(
-            Math.random() * quotes.length
-        )
-        ];
+const container =
+document.getElementById(
+"quoteContainer"
+);
 
-    quoteElement.innerText =
-        quote;
+let size = 34;
+
+quoteElement.style.fontSize =
+size + "px";
+
+while(
+
+quoteElement.scrollHeight >
+container.clientHeight
+
+&&
+
+size > 16
+
+){
+
+size--;
+
+quoteElement.style.fontSize =
+size + "px";
+
+}
+
+}
+
+function randomQuote(){
+
+const quote =
+
+quotes[
+Math.floor(
+Math.random()
+*
+quotes.length
+)
+];
+
+quoteElement.innerText =
+quote;
+
+fitText();
 
 }
 
 randomQuote();
 
-async function shareStory() {
+window.addEventListener(
+"resize",
+fitText
+);
 
-    const target =
-        document.getElementById(
-            "captureArea"
-        );
+async function shareStory(){
 
-    const canvas =
-        await html2canvas(
-            target,
-            {
-                scale: 3,
-                backgroundColor: null
-            }
-        );
+const capture =
+document.getElementById(
+"storyCapture"
+);
 
-    canvas.toBlob(async (blob) => {
+const canvas =
+await html2canvas(
+capture,
+{
+scale:5,
+backgroundColor:"#1717df",
+useCORS:true
+}
+);
 
-        const file =
-            new File(
-                [blob],
-                "unscanned-codes.png",
-                {
-                    type: "image/png"
-                }
-            );
+canvas.toBlob(
 
-        if (
-            navigator.canShare &&
-            navigator.canShare({
-                files: [file]
-            })
-        ) {
+async(blob)=>{
 
-            await navigator.share({
+const file =
+new File(
+[blob],
+"unscanned-codes-story.png",
+{
+type:"image/png"
+}
+);
 
-                files: [file],
-                title: "Unscanned Codes"
+if(
 
-            });
+navigator.canShare &&
 
-        } else {
+navigator.canShare({
+files:[file]
+})
 
-            const url =
-                URL.createObjectURL(blob);
+){
 
-            const a =
-                document.createElement("a");
+await navigator.share({
 
-            a.href = url;
+files:[file],
 
-            a.download =
-                "unscanned-codes.png";
+title:
+"Unscanned Codes"
 
-            a.click();
+});
 
-        }
+}else{
 
-    });
+const url =
+URL.createObjectURL(blob);
+
+const a =
+document.createElement("a");
+
+a.href = url;
+
+a.download =
+"unscanned-codes-story.png";
+
+a.click();
 
 }
 
+}
 
+);
+
+}
 
 
