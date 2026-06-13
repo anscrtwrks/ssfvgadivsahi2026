@@ -1,107 +1,105 @@
 const quotes = [
 
-    
-     "Rain and Memories - The old man who sat by the bus window always had tears in his eyes. Everyone thought it was the rain outside. No one knew they were memories of a spring he had lost long ago during a rainy season.",
-    "The Weight of Silence - Every evening, he sat alone on the park bench without speaking to anyone. People thought he was proud. In truth, his silence carried all the words he had saved for a world that never waited to hear his voice.",
-    "The Old Diary - The pages of her old diary smelled of love. But only the dried peacock feather hidden between its pages knew the pain of a love that never found its destination.",
-    "Behind the Smile - He was the funniest person in the office, always making others laugh. Yet every night he wiped away his own tears while caring for his sick mother, wearing a smile only when daylight arrived.",
-    "The Unlit Lamp - The old tea seller by the shore always looked out at the sea as though waiting for a ship that never came. Only the waves knew that someone on the far shore had once waited for him until hope ran out.",
-    "The Tailor - He spent his days stitching together the torn clothes of others. Yet nowhere in his shop could he find a needle and thread strong enough to mend the great tear in his own life.",
-    "The Stranger - That small smile from the man you meet in the lift every day? Behind it was someone who had failed to end his life the night before and was searching for a reason to keep living.",
-    "Mother's Bangles - The bangles on her wrists always made noise. In a silent house, they were her way of pretending she was not alone-a small defence against loneliness.",
-    "The Boy at the Tea Shop - The boy wiping tables always watched the school buses outside. What he wiped away were not leftovers, but the remains of his dream to sit in a classroom and learn.",
-    "The Book Lover - The girl sitting in the corner of the library was not in love with fictional characters. The books were simply the only place where she could escape the noise and unrest of home.", "The Watchman - The night watchman stayed awake for reasons beyond guarding the streets. He feared the memories that returned whenever he closed his eyes-shadows of an old tragedy that never left him.",
-    "The Mailbox - The old man sighed as he looked at the rusted red mailbox. Some letters are never sent. Some are kept hidden in the heart, waiting for a reader who may never come.",
-    "The Painter - Dark shades filled most of his paintings. People called it modern art. In truth, he was pouring the darkness within himself onto a white canvas, hoping to feel a little lighter.",
-    "The Singer - The man who sang on the street carried a deep sorrow in his voice. People dropped coins and walked away. None of them knew he was singing about the daughter he had lost.",
-    "The Garden - Her yard bloomed with roses, jasmine, and orchids. Neighbours admired her love for beauty. They never knew she borrowed colours from nature to hide the emptiness inside her.",
-    "The Last Call - He answered an unknown call at midnight with irritation. The call ended without a word. On the other side was someone who simply wanted to hear a familiar human voice before saying goodbye to the world.",
-    "The Mirror - She spent hours standing before the mirror each day. Not to put on makeup, but to search for traces of the innocent face she felt she had lost long ago.",
-    "The Traveller - The young man sitting by the train window seemed to be watching the scenery. In reality, his mind was travelling much faster than the train, racing back into a past he could never fix.",
-    "The Cobbler - The old cobbler repaired the shoes of strangers while his own bare feet rested on the dusty ground. He seemed destined to make other journeys easier while carrying every thorn on his own path.",
-    "The Sandcastle - A child built a sandcastle by the shore with great excitement. Each time the waves destroyed it, he built it again. He was trying to rebuild, in his own way, the family that had fallen apart.",
-    "The Tree - When the old roadside tree was cut down, people complained about losing a parking spot. No one noticed that a small world of birds disappeared with it.",
-    "The Paper Boat - An old man smiled as he floated a paper boat along a stream of rainwater. He was sending away a childhood he never truly had because poverty stole those simple joys.",
-    "The Shadow - He hated his shadow for following him only in the light. It reminded him of the people who disappeared when darkness entered his life.",
-    "The Madman - People called him mad and threw stones at him as he wandered the streets laughing. Perhaps he was the only wise man brave enough to laugh at the hypocrisy around him.",
-    "The Old Letter - The ink on the hidden letter had faded and spread. Not because of age, but because of the tears that fell on it every time it was read.",
-    "The Dancer - The audience applauded her graceful movements on stage. They did not know she was stamping her pain into the ground with every step.",
-    "The Clouds - She lay watching the clouds change shape in the sky. In every shape, she saw the faces of people she had lost. The sky had become her photo album.",
-    "The Glasses - Grandfather was always cleaning his glasses. Not because his vision was weak, but because he did not want to clearly see the selfishness growing around him.",
-    "The Weight - A porter carried a heavy box on his shoulders. Yet the greater burden was knowing he had no money to buy even a small sweet for his children on the way home.",
-    "The Wind - A cool breeze slipped through the window and touched her hair. In that lonely moment, it reminded her that even if no one else was there, nature still knew she existed.",
-    "The Station Master - The station master watched trains arrive and leave every day. Yet his eyes were searching for one person who had left him alone at that very station years ago.",
-    "The Doll - A little girl picked up a broken doll from a pile of rubbish and hugged it tightly. Like the doll, she too felt unwanted by the world.",
-    "The Voice - He always spoke loudly. People thought he loved attention. In truth, he was trying to drown out the silence that haunted him inside.",
-    "Rust - He struggled to open an old lock. The rust was not on the metal alone-it had also settled on the hope that everything would still be the same when he returned.",
-    "Airplanes - An old man watched an airplane cross the sky. To him, it was not flying toward distant lands, but toward the freedom that existed beyond the walls of the nursing home where he now lived.",
-    "The Blanket - On a cold night, he wrapped himself in an old blanket. It did more than keep him warm. It still carried the comfort of his mother’s embrace.",
-    "Water - Tears and seawater share the same taste of salt. Both come from great depths. Yet people have measured the depth of the ocean, while few have tried to measure the depth of a human heart.",
-    "Mould - She stared at the mould growing on the wall. It was not merely a sign of an old house, but of a relationship slowly decaying beneath the same roof.",
-    "The Memory Book - He wrote poems not for fame. He wrote to keep alive the people, memories, and pieces of himself that time was slowly taking away.", "The Ants - She watched a line of ants carrying tiny grains of sugar together. Their unity made her sad. She had a large house and plenty of wealth, yet no one to stand beside her when life became difficult.",
-    "The Cup of Tea - She sat staring at a cup of tea that had gone cold. It was not only the warmth that had disappeared, but also the words that should have been spoken before it cooled.",
-    "Smoke - He blew cigarette smoke into the air and looked out the window. His dreams were much like those fading spirals-briefly visible, then lost to the wind.",
-    "Boundaries - They carefully built a wall along the edge of their property. But the wall divided more than land; it also separated the playground of two children who had grown up together.",
-    "Silent Prayer - The girl standing quietly in the corner of the temple asked for nothing. There was nothing left to ask for. She only hoped that God could see the emptiness she carried inside.",
-    "The Race - He was always in a hurry-running toward work, business, and success. When he finally reached his destination, he realised he had lost the people who mattered somewhere along the way.",
-    "Roots - The great banyan tree stood firm through every storm because of its deep roots. In the same way, it is often the unseen support of others that keeps us from falling.",
-    "The Phone Gallery - Her phone held thousands of photographs. Yet in none of them was she smiling. They were all memories of other people’s happiness while she remained behind the camera.",
-    "Hanging Clothes - Every morning she came to the terrace to hang clothes out to dry. It was more than a household task-it was her only chance to catch a glimpse of an old friend from the neighbouring terrace.",
-    "Paper Flowers - She decorated her home with artificial flowers. They never wilted, yet they never carried a fragrance either. Some relationships are much the same-beautiful, but lifeless.",
-    "Halfway - They began the journey together. Somewhere along the way, one of them changed trains without the other knowing. Only at the destination did the loneliness become clear.",
-    "Cotton Candy Skies - The child reached toward the clouds, believing they were made of candy. Years later, he learned that some dreams are just like those clouds-beautiful, but always beyond reach.",
-    "Dry Leaves - Some people are like leaves carried by the wind. With no direction of their own, they drift wherever life takes them.",
-    "An Old Song - A familiar song played on the radio, and her eyes lit up. For a moment, it carried her back to a time when life was simple and dreams were still alive.",
-    "Shadow Play - He played with shadows on the wall at night. Speaking to them felt easier than facing the harshness of the world outside.",
-    "The Shore - The waves wrote something on the sand, only for the next wave to erase it. Human desires are much the same-time eventually washes them all away.",
-    "The Feather - She picked up a feather that had fallen from the sky. To her, it was more than a feather-it was the final trace of a bird that had once dreamed of flying higher.",
-    "The Lighthouse - The lighthouse guided ships safely through the darkness. Yet while it gave light to others, it could never remove the darkness at its own feet.",
-    "The Coin - A shining coin fell into a beggar’s bowl. The giver saw it as a way to ease his conscience. The receiver saw it as mercy enough to get through another day."
-
-
-    , "The Autobiography - He finished writing a thick autobiography. Yet nowhere in its pages did he mention his deepest pain. It told only the story the world wanted to hear-the story of a successful man.",
-    "The Desert - Her heart was like a desert-empty and untouched. Yet somewhere within it lay a hidden oasis, waiting for a single drop of love.",
-    "The Old Bicycle - The rusted bicycle resting on the porch was more than a vehicle. It was a monument to a father’s hard work, who once pedalled miles to feed his family.",
-    "A Scrap of Paper - She always carried a small piece of paper in her purse. The number written on it was never called. The person who gave it to her no longer belonged to this world.",
-    "The Mural - Everyone admired the forest painted on the restaurant wall. Few noticed the little child standing lost among the trees-the artist’s own forgotten self.",
-    "The Keys - A bunch of keys always hung from her waist. They did not guard great wealth. They were the symbol of a woman carrying the responsibilities of an entire home.",
-    "Glass Bangles - She wore the glass bangles she bought from the festival market. When they broke, she felt no sadness. Their sound reminded her of the pieces of her youth that had already shattered.",
-    "Waiting - The old man on the railway bench stood up whenever a train arrived. After the crowd disappeared, he sat down again. The hope that his son would one day return kept him alive.",
-    "The Kite - The kite soared happily through the sky. When its string snapped, it believed it had found freedom. But in the end, it fell into a thorny bush where no one cared to look.",
-    "An Old Friend - They met again after many years on a busy street. A smile was exchanged, and they moved on. Time had built a distance that words could no longer cross.",
-    "The Dark Road - He preferred walking through dimly lit streets. He feared that too much light would reveal the sadness written across his face.",
-    "Mother’s Sewing Machine - The old sewing machine made its familiar sound every day. We grew up listening to it. It was not merely noise, but the song of a mother’s sacrifice that built our dreams.",
-    "Heavy Rain - The girl walked through the rain without an umbrella, quietly crying. The rain washed away her tears, hiding her sorrow from the world.",
-    "The Glass Case - The expensive toy inside the display case looked beautiful. Yet it remained trapped behind glass, much like some children surrounded by comfort but deprived of freedom.",
-    "The First Poem - No one read the first poem he wrote. It ended up in a dustbin. Yet it was the first spark of the fire that would later grow inside him.",
-    "Flowers on the Desk - Every morning, a rose appeared on the office desk. No one knew who placed it there. Perhaps it was the silent presence of a love that never wished to be seen.",
-    "The Stone - The stone resting in the stream looked smooth and polished. Few realised that its beauty came from years of enduring the force of rushing water.",
-    "The Lonely House - The gate of the large house remained locked most of the time. Lights glowed inside, but no human voices could be heard. It was a luxurious prison built by a son living far away for his aging parents.",
-    "The Old Book - A second-hand book carried a handwritten name and a tiny heart beneath it. More than the story inside, I wondered about the love hidden behind that name.",
-    "The Nest - The bird spent most of its time outside the nest. However large the nest was, it knew that without freedom, even the finest home becomes a cage.",
-    "The Ink of the Heart - When he sat down to write, his pen ran out of ink. Yet he realised that the ink within his heart could never run dry. So he continued writing in other ways, leaving his thoughts wherever he could.",
-
-    "The Last Leaf - Only one leaf remained on the great tree. Though autumn winds tried to take it away, it held on. It was a symbol of hope, of survival, and of a heart waiting for spring.",
-    "The Radio at the Tea Shop - Every morning, old songs played from the radio in the tea shop. Some elderly men came not for the tea, but to revisit the melodies of their lost youth.",
-    "Mother’s Saree - Mother’s old cotton saree carried a scent of rice water, hard work, and love. Holding it close felt like returning to the safest place in the world.",
-    "The Broken Toy - The child carefully tried to repair his broken toy. The adults laughed. They did not realise he was doing what many grown hearts wish they could do-mend what has been broken.",
-    "The Wayside Shelter - The old roadside shelter once welcomed tired travellers. Today it stands forgotten. As people became faster, they lost not only the habit of resting, but also the habit of noticing others.",
-    "The Paper Airplane - The paper airplane he launched from the classroom window was more than a toy. It was the first flight of dreams too large to remain within four walls.",
-    "Night Rain - There is a special beauty in rain that falls unseen at night. It is like those people who carry their sorrows quietly, sharing them with no one.",
-    "The Old Photograph - Everyone in the black-and-white photograph was smiling. Today, some are gone and others no longer speak to each other. Yet somehow, that colourless past seems brighter than the present.",
-    "Summer - The well dried up under the harsh summer sun, and people abandoned it. But when the rains returned, it filled again. Human hearts are much the same-after every drought, there is a season of renewal.",
-    "A Small Smile - A stranger’s smile on the bus erased the sadness of an entire day. Sometimes the smallest act of kindness becomes someone else’s reason to keep going.",
-    "Silent Lines - She wrote poems on the last pages of her diary and hid them away. Every human heart contains secret rooms where unspoken feelings live as words.",
-    "Footprints on the Shore - The footprints on the sand disappeared with the next wave. So too will the marks we leave on this world. In the end, only memories remain.",
-    "The Rusted Box - The children struggled to open the old chest. Inside, they found only faded letters and dried flowers. Yet those memories were worth far more than the treasure they expected.",
-    "The Butterfly - A child gently picked up a butterfly with torn wings. Though he knew it could not fly, he placed it among the flowers. Some hearts still choose compassion where the world chooses indifference.",
-    "The Last Cup of Tea - It was the last cup of tea they shared together. Neither of them spoke. Their farewell drifted through the air like the steam rising from the cup.",
-    "The Calendar - The old man refused to replace the calendar, even after the year had ended. The date his son left home remained frozen there, as if time itself had stopped.",
-    "The Dance of Shadows - He watched shadows move across the wall in the candlelight. When the candle went out, the shadows vanished too. Some friendships disappear just as easily when the light fades.",
-    "The Wildflower - A tiny wildflower bloomed unnoticed by the roadside. It had no grand fragrance, yet it carried a quiet beauty of its own. Many people are like that.",
-    "A City of Strangers - He walked through the crowded city surrounded by thousands of people. Yet he had never felt more alone. It was a place where everyone hurried past without truly seeing one another.",
-    "The Open Book - Every person around us is an open book. We often judge the cover without reading the pages. Hidden within many lives are oceans of tears, stories of courage, and chapters waiting to be understood."
-
+     "മഴയും ഓർമ്മകളും: ബസ്സിലെ ജനൽക്കമ്പികളിൽ തല ചായ്ച്ച് പുറത്തേക്ക് നോക്കുന്ന ആ വൃദ്ധന്റെ കണ്ണുകൾ എപ്പോഴും നനഞ്ഞിരിക്കാറുണ്ട്. അത് പുറത്തെ മഴത്തുള്ളികളാണെന്നാണ് എല്ലാവരും കരുതിയത്; എന്നാൽ വർഷങ്ങൾക്ക് മുൻപ് ഒരു മഴക്കാലത്ത് നഷ്ടപ്പെട്ടുപോയ സ്വന്തം വസന്തത്തെക്കുറിച്ചുള്ള ഓർമ്മകളുടെ പെയ്ത്തായിരുന്നു അതെന്ന് ആരും അറിഞ്ഞില്ല.",
+"നിശബ്ദതയുടെ കനം: എന്നും വൈകുന്നേരം പാർക്കിലെ ബെഞ്ചിൽ വന്നിരിക്കുന്ന അയാൾ ആരോടും സംസാരിക്കാറില്ലായിരുന്നു. ആളുകൾ കരുതി അയാൾക്ക് ഗർവ്വമാണെന്ന്. എന്നാൽ, ഒരു ദിവസം പോലും തന്റെ ശബ്ദം കേൾക്കാൻ കാത്തുനിൽക്കാത്ത ഒരു ലോകത്തോട് അയാൾക്ക് പറയാൻ ബാക്കിവെച്ച വാക്കുകളുടെ ഭാരമായിരുന്നു ആ നിശബ്ദത.",
+"പഴയ ഡയറി: അവളുടെ മേശപ്പുറത്തിരുന്ന ആ പഴയ ഡയറിയിലെ വരികൾക്ക് പ്രണയത്തിന്റെ മണമായിരുന്നു. പക്ഷെ, പേജുകൾക്കിടയിൽ ഉണങ്ങിപ്പോയ ആ മയിൽപ്പീലിക്ക് മാത്രം അറിയാമായിരുന്നു, ഒരിക്കലും വിലാസം കണ്ടെത്താനാവാതെ പോയ ഒരു ഏകപക്ഷീയ പ്രണയത്തിന്റെ നോവ്.",
+"ചിരിയുടെ പിന്നിൽ: ഓഫീസിലെ ഏറ്റവും വലിയ കോമാളിയായിരുന്നു അവൻ. എല്ലാവരെയും ചിരിപ്പിക്കുന്നവൻ. എന്നാൽ, ഇരുട്ടി വെളുക്കുവോളം വീട്ടിലെ രോഗിയായ അമ്മയുടെ വേദനകൾക്ക് മുന്നിൽ സ്വന്തം കണ്ണീരൊപ്പി, പകൽ വെളിച്ചത്തിൽ ചിരിയുടെ മുഖംമൂടി അണിയുന്ന ഒരു പോരാളിയായിരുന്നു അവൻ.",
+"കത്താത്ത വിളക്ക്: കടൽത്തീരത്തെ ആ പഴയ ചായക്കടക്കാരൻ എപ്പോഴും കടലിലേക്ക് നോക്കി നിൽക്കും. വരാത്ത ഏതോ കപ്പലിനെ കാത്തിരിക്കുന്നതുപോലെ. അക്കരെ തീരത്ത് അവനെ കാത്തിരുന്ന് മടുത്തുപോയ ഒരാളുണ്ടായിരുന്നു എന്ന സത്യം കടലലകൾ മാത്രം ഒളിച്ചുവെച്ചു.",
+"തയ്യൽക്കാരൻ: മറ്റുള്ളവരുടെ കീറിയ വസ്ത്രങ്ങൾ തുന്നിപ്പിടിപ്പിക്കുന്ന തിരക്കിലായിരുന്നു അയാൾ. എന്നാൽ, സ്വന്തം ജീവിതത്തിൽ വന്നുപോയ വലിയൊരു കീറലിനെ തുന്നിച്ചേർക്കാൻ പാകത്തിലുള്ള ഒരു നൂലും സൂചിയും ആ തയ്യൽക്കടയിൽ എങ്ങും ഉണ്ടായിരുന്നില്ല.",
+"അപരിചിതൻ: നമ്മൾ ദിവസവും ലിഫ്റ്റിൽ വെച്ച് കാണുന്ന ആ ആൾ തരുന്ന ചെറിയൊരു പുഞ്ചിരിയില്ലേ? അതിന് പിന്നിൽ, തലേദിവസം രാത്രി ജീവിതം അവസാനിപ്പിക്കാൻ ശ്രമിച്ച് പരാജയപ്പെട്ട്, വീണ്ടും ജീവിക്കാൻ പ്രേരിപ്പിക്കുന്ന ഒന്നിനെ തിരയുന്ന ഒരു മനുഷ്യനുണ്ടായിരുന്നു.",
+"അമ്മയുടെ വളകൾ: അവളുടെ കയ്യിലെ വളകൾ എപ്പോഴും ശബ്ദിച്ചുകൊണ്ടിരുന്നു. ആ ഒച്ചയില്ലാത്ത വീട്ടിൽ അവൾ ഒറ്റയ്ക്കല്ലെന്ന് തോന്നിപ്പിക്കാൻ വേണ്ടി മാത്രം അവൾ ബോധപൂർവ്വം ഉണ്ടാക്കിയ ശബ്ദമായിരുന്നു അത്. ഏകാന്തതയെ ഭയന്ന ഒരു മനസ്സിന്റെ ചെറിയ പ്രതിരോധം.",
+"ചായക്കടയിലെ പയ്യൻ: മേശ തുടയ്ക്കുന്ന ആ കൊച്ചു ബാലന്റെ കണ്ണുകൾ എപ്പോഴും ഹോട്ടലിന് പുറത്തെ സ്കൂൾ ബസ്സുകളിലായിരുന്നു. അവൻ തുടച്ചുമാറ്റിയത് മേശയിലെ എച്ചിലുകളായിരുന്നില്ല, മറിച്ച് പഠിക്കണമെന്ന തന്റെ വലിയ ആഗ്രഹങ്ങളുടെ അവശിഷ്ടങ്ങളായിരുന്നു.",
+"പുസ്തകപ്പുഴു: ലൈബ്രറിയുടെ മൂലയിൽ എപ്പോഴും പുസ്തകം വായിച്ചിരിക്കുന്ന ആ പെൺകുട്ടി കഥാപാത്രങ്ങളെ പ്രണയിക്കുകയായിരുന്നില്ല. സ്വന്തം വീട്ടിലെ അശാന്തികളിൽ നിന്നും ഒച്ചപ്പാടുകളിൽ നിന്നും ഒളിച്ചോടി സമാധാനം കണ്ടെത്താൻ അവൾ കണ്ടെത്തിയ ഏക അഭയകേന്ദ്രമായിരുന്നു ആ പുസ്തകത്താളുകൾ.",
+"വാച്ചുകാരൻ: ആ രാത്രി കാവൽക്കാരൻ ഉറങ്ങാതെ ഇരുന്നത് തെരുവിലെ കള്ളന്മാരെ പേടിച്ചല്ലായിരുന്നു, മറിച്ച് കണ്ണടച്ചാൽ ഓർമ്മകളിൽ വന്ന് ശ്വാസം മുട്ടിക്കുന്ന പഴയൊരു ദുരന്തത്തിന്റെ നിഴലുകളെ ഭയന്നായിരുന്നു.",
+"തപാൽ പെട്ടി: തുരുമ്പെടുത്തുപോയ ആ ചുവന്ന തപാൽ പെട്ടിയിലേക്ക് നോക്കി വൃദ്ധൻ നെടുവീർപ്പിട്ടു. അയക്കാൻ മടിച്ച, അല്ലെങ്കിൽ വായിക്കപ്പെടില്ലെന്ന് ഉറപ്പുള്ള ചില കത്തുകൾ മനുഷ്യർ സ്വന്തം നെഞ്ചിലാണ് സൂക്ഷിച്ചുവെക്കാറുള്ളത്.",
+"ചിത്രകാരൻ: അയാൾ വരച്ച ചിത്രങ്ങളിലെല്ലാം കറുത്ത നിറത്തിനായിരുന്നു പ്രാധാന്യം. ആളുകൾ അതിനെ മോഡേൺ ആർട്ട് എന്ന് വിളിച്ചു. എന്നാൽ, തന്റെ ഉള്ളിലെ ഇരുട്ടിനെ വെളുത്ത ക്യാൻവാസിലേക്ക് പകർത്തി വെച്ച് സ്വയം ഭാരം കുറയ്ക്കുകയായിരുന്നു അയാൾ.",
+"പാട്ടുകാരൻ: തെരുവിൽ പാട്ടുപാടി ജീവിക്കുന്ന അവന്റെ വരികളിൽ എന്തോ ഒരു വിരഹമുണ്ടായിരുന്നു. നാണയത്തുട്ടുകൾ എറിഞ്ഞു കൊടുത്ത് ആളുകൾ നടന്നു നീങ്ങിയപ്പോൾ, അവൻ പാടിയത് തനിക്കു നഷ്ടപ്പെട്ട മകളെക്കുറിച്ചുള്ള വിലാപമായിരുന്നു എന്ന് ആരും തിരിച്ചറിഞ്ഞില്ല.",
+"പൂന്തോട്ടം: അവളുടെ മുറ്റം നിറയെ പൂക്കളായിരുന്നു. റോസയും മുല്ലയും ഓർക്കിഡും. അയൽക്കാർ അവളുടെ സൗന്ദര്യബോധത്തെ പുകഴ്ത്തി. പക്ഷേ, ഉള്ളിലെ ശൂന്യതയെ മറയ്ക്കാൻ പ്രകൃതിയുടെ നിറങ്ങൾ കടംകൊണ്ട ഒരു പാവം പെൺകുട്ടിയായിരുന്നു അവൾ.",
+"അവസാനത്തെ കോൾ: അർദ്ധരാത്രിയിൽ ഫോണിൽ വന്ന അൺനോൺ നമ്പറിലേക്ക് അയാൾ ദേഷ്യപ്പെട്ടു. മറുപടിയില്ലാതെ ആ കോൾ കട്ടായി. മറ്റേത്തലയ്ക്കൽ, ഈ ഭൂമിയിൽ നിന്നും യാത്ര പറയുന്നതിന് മുൻപ് പരിചിതമായ ഒരു മനുഷ്യശബ്ദം കേൾക്കാൻ കൊതിച്ച ഒരു നിർഭാഗ്യവാനായിരുന്നു.",
+"കണ്ണാടി: അവൾ ദിവസവും മണിക്കൂറുകളോളം കണ്ണാടിക്ക് മുന്നിൽ നിൽക്കും. മേക്കപ്പ് ചെയ്യാനല്ല, മറിച്ച് ദിവസങ്ങൾക്കുമുമ്പ് തനിക്ക് നഷ്ടപ്പെട്ടുപോയ പഴയ ആ പഴയ നിഷ്കളങ്കമായ മുഖത്തിന്റെ എന്തെങ്കിലും ബാക്കിപത്രമുണ്ടോ എന്ന് തിരയാൻ.",
+"യാത്രക്കാരൻ: ജനൽക്കമ്പികളിൽ വിരലോടിച്ച് ട്രെയിനിലിരിക്കുന്ന ആ യുവാവ് വഴിയിലെ കാഴ്ചകളൊന്നും കാണുന്നില്ലായിരുന്നു. അവന്റെ മനസ്സ് ട്രെയിനേക്കാൾ വേഗത്തിൽ ഭൂതകാലത്തിലേക്ക് പിന്നോട്ട് ഓടുകയായിരുന്നു, ഒന്നിനും പരിഹാരം കാണാനാവാത്ത നിസ്സഹായതയോടെ.",
+"ചെരുപ്പുകുത്തി: വഴിയോരത്തെ വൃദ്ധൻ മറ്റുള്ളവരുടെ ചെരുപ്പുകൾ നന്നാക്കുമ്പോൾ അയാളുടെ നഗ്നമായ പാദങ്ങൾ മണ്ണിൽ പുതഞ്ഞിരുന്നു. തന്റെ ജീവിതപ്പാതയിലെ മുള്ളുകളെല്ലാം മാറ്റിവെച്ച്, മറ്റുള്ളവരുടെ യാത്രകൾ സുഖകരമാക്കാൻ വിധിക്കപ്പെട്ട ഒരു ജന്മം.",
+"പുഞ്ചിരിയുടെ കടം: അവൾ ആരോടും വഴക്കിടാറില്ലായിരുന്നു, എപ്പോഴും ശാന്തയായിരുന്നു. ആ ശാന്തത സമാധാനത്തിന്റേതായിരുന്നില്ല, മറിച്ച് പ്രതികരിക്കാനുള്ള എല്ലാ ഊർജ്ജവും ചോർന്നുപോയ ഒരു മനസ്സിന്റെ മരണതുല്യമായ അവസ്ഥയായിരുന്നു.",
+"മണൽ കൊട്ടാരം: കടൽത്തീരത്ത് ഒരു കുട്ടി വലിയ ആവേശത്തോടെ മണൽക്കൊട്ടാരം പണിയുകയായിരുന്നു. തിരമാലകൾ വന്ന് അതോരോ തവണയും തകർക്കുമ്പോഴും അവൻ വീണ്ടും പണിതു. തകർന്നടിഞ്ഞ സ്വന്തം കുടുംബത്തെ വീണ്ടും ഒന്നിപ്പിക്കാൻ ശ്രമിക്കുന്ന ഒരു കുഞ്ഞു മനസ്സിന്റെ പ്രതീകമായിരുന്നു അവൻ.",
+"മരം: വഴിയരികിലെ ആ വലിയ തണൽമരം വെട്ടിമാറ്റിയപ്പോൾ പലരും വണ്ടികൾ പാർക്ക് ചെയ്യാൻ സ്ഥലമില്ലല്ലോ എന്ന് വിഷമിച്ചു. എന്നാൽ, ആ മരത്തിന്റെ പൊത്തിൽ ഒരു ചെറിയ കൂടുണ്ടാക്കി ജീവിച്ചിരുന്ന കിളികളുടെ ലോകം ഇല്ലാതായത് ആരും കണ്ടില്ല.",
+"കടലാസ് തോണി: മഴവെള്ളച്ചാലിൽ കടലാസ് തോണി ഒഴുക്കുന്ന ആ വൃദ്ധന്റെ മുഖത്ത് ഒരു കുസൃതിച്ചിരിയുണ്ടായിരുന്നു. കുട്ടിക്കാലത്ത് ദാരിദ്ര്യം കാരണം കളിക്കാൻ കഴിയാതെ പോയ ഒരു ഭൂതകാലത്തെ അയാൾ ആ കുഞ്ഞു തോണിയിൽ കയറ്റി ഒഴുക്കിവിടുകയായിരുന്നു.",
+"നിഴൽ: വെളിച്ചമുള്ളപ്പോൾ മാത്രം കൂടെവരുന്ന നിഴലിനെ അയാൾ വെറുത്തു. കാരണം, ജീവിതത്തിൽ കഷ്ടപ്പാടിന്റെ ഇരുട്ട് പടർന്നപ്പോൾ ആദ്യം ഒളിച്ചോടിയത് തന്റെ ഏറ്റവും പ്രിയപ്പെട്ടവരായിരുന്നു എന്ന് ആ നിഴൽ അയാളെ ഓർമ്മിപ്പിച്ചു.",
+"ഭ്രാന്തൻ: തെരുവിൽ അലയുന്ന അയാളെ എല്ലാവരും ഭ്രാന്തനെന്ന് വിളിച്ചു കല്ലെറിഞ്ഞു. അയാൾ ഉച്ചത്തിൽ ചിരിച്ചുകൊണ്ട് നടന്നു. യഥാർത്ഥത്തിൽ, സ്വാർത്ഥതയും കപടതയും നിറഞ്ഞ ഈ സമൂഹത്തിന്റെ മുഖത്തുനോക്കി ചിരിക്കാൻ ധീരത കാണിച്ച ഒരേയൊരു ജ്ഞാനി അയാളായിരുന്നു.",
+"പഴയ കത്ത്: അലമാരയുടെ കോണിൽ ഒളിപ്പിച്ചുവെച്ച ആ കത്തിലെ മഷി പടർന്നിരുന്നു. അത് കാലപ്പഴക്കം കൊണ്ടായിരുന്നില്ല, മറിച്ച് അത് വായിക്കുമ്പോഴൊക്കെ വീണ കണ്ണീർത്തുള്ളികൾ ആ അക്ഷരങ്ങളെ മായ്ക്കാൻ ശ്രമിച്ചതുകൊണ്ടായിരുന്നു.",
+"നർത്തകി: വേദിയിൽ ചടുലമായ ചുവടുകളോടെ അവൾ നൃത്തം ചെയ്യുമ്പോൾ സദസ്സ് കൈയടിച്ചു. ആ ചുവടുകൾ നൃത്തത്തിന്റെ ഭംഗിയായിരുന്നില്ല, ഉള്ളിൽ തിളച്ചുമറിയുന്ന അമർഷവും വേദനയും ഭൂമിയിലേക്ക് ചവിട്ടിത്താഴ്ത്താനുള്ള അവളുടെ ശ്രമമായിരുന്നു.",
+"മേഘങ്ങൾ: ആകാശത്തെ മേഘങ്ങൾ പല രൂപങ്ങൾ മാറുന്നത് നോക്കി അവൾ കിടന്നു. ഓരോ രൂപത്തിലും അവൾ കണ്ടത് തനിക്ക് നഷ്ടപ്പെട്ട പ്രിയപ്പെട്ടവരുടെ മുഖങ്ങളായിരുന്നു. ആകാശം അവൾക്കൊരു വലിയ ഫോട്ടോ ആൽബമായിരുന്നു.",
+"കണ്ണട: മുത്തശ്ശൻ എപ്പോഴും തന്റെ കണ്ണട തുടച്ചുകൊണ്ടേയിരിക്കും. കാഴ്ച മങ്ങിയതുകൊണ്ടല്ല, മറിച്ച് തന്റെ മുന്നിലിരിക്കുന്ന പുതിയ തലമുറയുടെ സ്വാർത്ഥതയും സ്നേഹമില്ലായ്മയും വ്യക്തമായി കാണാതിരിക്കാൻ വേണ്ടിയായിരുന്നു ആ വൃത്തിയാക്കൽ.",
+"ഭാരം: കു ചുമട്ടുകാരൻ വലിയൊരു പെട്ടി ചുമലിലേറ്റി നടന്നു. എന്നാൽ അയാളുടെ ശരീരത്തേക്കാൾ കൂടുതൽ ഭാരം അനുഭവപ്പെട്ടത്, വൈകുന്നേരം വീട്ടിൽ ചെല്ലുമ്പോൾ മക്കൾക്ക് കൊടുക്കാൻ ഒരു മിട്ടായി വാങ്ങാൻ പോലും കയ്യിൽ പണമില്ലല്ലോ എന്ന ചിന്തയ്ക്കായിരുന്നു.",
+"കാറ്റ്: ജനാലപ്പഴുതിലൂടെ വന്ന തണുത്ത കാറ്റ് അവളുടെ മുടിയിഴകളെ തലോടി കടന്നുപോയി. ഏകാന്തതയുടെ ആ നിമിഷത്തിൽ, തനിക്കായി മറ്റാരും ഇല്ലെങ്കിലും തന്നെ തൊട്ടറിയാൻ ഈ പ്രകൃതിയുണ്ടല്ലോ എന്ന ചിന്ത അവൾക്ക് ജീവിക്കാനുള്ള വയ്ക്കോൽത്തുരുമ്പായി.",
+"സ്റ്റേഷൻ മാസ്റ്റർ: ട്രെയിനുകൾ വരുന്നത് നോക്കി നിൽക്കുന്ന സ്റ്റേഷൻ മാസ്റ്റർ. ദിവസവും എത്രയോ പേർ വരുന്നു, പോകുന്നു. പക്ഷേ, വർഷങ്ങൾക്ക് മുൻപ് ഇതേ സ്റ്റേഷനിൽ തന്നെ തനിച്ചാക്കി പോയ ഒരാളെ തിരയുകയായിരുന്നു അയാളുടെ കണ്ണുകൾ.",
+"പാവക്കുട്ടി: ചപ്പുചവറുകൾക്കിടയിൽ നിന്ന് കിട്ടിയ കണ്ണുപൊട്ടിയ പാവക്കുട്ടിയെ ആ തെരുവ് ബാലിക നെഞ്ചോട് ചേർത്തുപിടിച്ചു. കാരണം, ഈ ലോകത്ത് അവളും ആ പാവയെപ്പോലെ ആർക്കും വേണ്ടാത്ത ഒന്നായിരുന്നു.",
+"ശബ്ദം: അവൻ വലിയ ശബ്ദത്തിൽ സംസാരിക്കുന്ന സ്വഭാവക്കാരനായിരുന്നു. ആളുകൾ അവനെ ബഹളക്കാരനായി മുദ്രകുത്തി. സത്യത്തിൽ, തന്റെ ഉള്ളിലെ ആരും കേൾക്കാത്ത ഏകാന്തതയുടെ നിശബ്ദതയെ ഭയന്നാണ് അവൻ പുറമേക്ക് ബഹളം വെച്ചിരുന്നത്.",
+"തുരുമ്പ്: ആ പഴയ പൂട്ട് തുറക്കാൻ അയാൾ ഒത്തിരി ശ്രമിച്ചു. തുരുമ്പെടുത്തത് പൂട്ടല്ലായിരുന്നു, മറിച്ച് ഒടുവിൽ തിരിച്ചുവരുമ്പോൾ എല്ലാം പഴയതുപോലെ ഉണ്ടാകുമെന്ന അയാളുടെ അമിതമായ പ്രതീക്ഷകൾക്കായിരുന്നു തുരുമ്പ് പിടിച്ചത്.",
+"വിമാനങ്ങൾ: ആകാശത്തു കൂടെ പറന്നുയരുന്ന വിമാനത്തിലേക്ക് നോക്കി നിൽക്കുന്ന വൃദ്ധൻ. വിമാനം പറക്കുന്നത് ദൂരങ്ങളിലേക്കല്ല, മറിച്ച് തന്റെ മക്കൾ തന്നെക്കൊണ്ടുചെന്നാക്കിയ ആ വൃദ്ധസദനത്തിന്റെ മതിലുകൾക്കപ്പുറമുള്ള സ്വാതന്ത്ര്യത്തിലേക്കാണെന്ന് അയാൾ ഓർത്തു.",
+"പുതപ്പ്: തണുപ്പുള്ള രാത്രിയിൽ അയാൾ ഒരു പഴയ പുതപ്പ് പുതച്ചു കിടന്നു. അത് തണുപ്പിൽ നിന്ന് രക്ഷപ്പെടാൻ മാത്രമായിരുന്നില്ല, മറിച്ച് പണ്ട് അമ്മ തുന്നിത്തന്ന ആ പുതപ്പിന് ഇപ്പോഴും അമ്മയുടെ കെട്ടിപ്പിടുത്തത്തിന്റെ ചൂടുണ്ടായിരുന്നു.",
+"വെള്ളം: കണ്ണീരിനും കടൽവെള്ളത്തിനും ഒരേ ഉപ്പുരസമാണ്. രണ്ടും ജനിക്കുന്നത് വലിയ ആഴങ്ങളിൽ നിന്നാണ്. പക്ഷേ, കടലിന്റെ ആഴം അളക്കാൻ മനുഷ്യർക്ക് കഴിഞ്ഞു, ഉള്ളിലെ കണ്ണീരിന്റെ ആഴം അളക്കാൻ ആരും ശ്രമിച്ചതുമില്ല.",
+"പൂപ്പൽ: ചുമരിലെ പൂപ്പൽ പിടിച്ച ചിത്രത്തിലേക്ക് അവൾ നോക്കി. അത് ആ വീടിന്റെ പഴക്കമായിരുന്നില്ല, മറിച്ച് പരസ്പരം സംസാരിക്കാതെ ഒരു മേൽക്കൂരയ്ക്ക് കീഴിൽ കഴിയുന്ന രണ്ട് മനുഷ്യരുടെ ബന്ധങ്ങൾക്ക് സംഭവിച്ച ജീർണ്ണതയായിരുന്നു.",
+"ഓർമ്മപ്പുസ്തകം: അവൻ കവിതകളെഴുതിയത് പ്രശസ്തിക്കല്ലായിരുന്നു. താൻ മറന്നുപോകാൻ സാധ്യതയുള്ള സ്വന്തം സ്വത്വത്തെയും, തന്നെ വിട്ടുപോയ മനുഷ്യരെയും അക്ഷരങ്ങളിലൂടെ ജീവനോടെ നിലനിർത്താനുള്ള ഒരു എളിയ ശ്രമമായിരുന്നു അത്.",
+"ഉറുമ്പുകൾ: പഞ്ചസാരത്തരിയും ചുമന്ന് പോകുന്ന ഉറുമ്പുകളെ അവൾ നോക്കി നിന്നു. അവയുടെ കൂട്ടായ്മ അവളിൽ വലിയൊരു സങ്കടമുണ്ടാക്കി. കാരണം, വലിയൊരു വീടും സമ്പത്തുമുണ്ടായിട്ടും ഒരു പ്രതിസന്ധി ഘട്ടത്തിൽ ഒപ്പം നിൽക്കാൻ അവൾക്ക് ആരും ഇല്ലായിരുന്നു.",
+"ചായക്കപ്പ്: തണുത്തുപോയ ചായക്കപ്പിലേക്ക് നോക്കി അവൾ ഇരുന്നു. ചായയുടെ ചൂട് മാത്രമല്ല നഷ്ടപ്പെട്ടത്, ആ ചായ കുടിക്കുന്നതിനിടയിൽ പറഞ്ഞു തീർക്കേണ്ടിയിരുന്ന ചില പ്രധാനപ്പെട്ട വാക്കുകളുടെ ജീവനുമായിരുന്നു അവിടെ ഇല്ലാതായത്.",
+"പുക: സിഗരറ്റ് പുക ഊതിവിട്ടുകൊണ്ട് അയാൾ ജനലിലൂടെ പുറത്തേക്ക് നോക്കി. വായുവിൽ അലിഞ്ഞുപോകുന്ന ആ പുകച്ചുരുളുകൾ പോലെയായിരുന്നു അയാളുടെ ആഗ്രഹങ്ങളും. ഒരു നിമിഷത്തെ പ്രകാശം, പിന്നെ വെറും ചാരവും പുകയും.",
+"അതിരുകൾ: വീടിന്റെ അതിരിൽ മതിൽ കെട്ടുമ്പോൾ അവർ വലിയ ഗൗരവത്തിലായിരുന്നു. പക്ഷേ, ആ മതിലുകൾ ഭൂമിയെ മാത്രമല്ല വിഭജിച്ചത്, അതുവരെ ഒന്നിച്ച് കളിച്ചു വളർന്ന രണ്ട് അയൽപക്ക കുട്ടികളുടെ കളിക്കളങ്ങളെക്കൂടിയായിരുന്നു.",
+"നിശ്ശബ്ദ പ്രാർത്ഥന: അമ്പലത്തിന്റെ മൂലയിൽ കൈകൂപ്പി നിൽക്കുന്ന ആ പെൺകുട്ടി ഒന്നും ചോദിച്ചില്ല. ചോദിക്കാൻ മാത്രമായി ഒന്നും ബാക്കിയില്ലായിരുന്നു. ഉള്ളിലെ ശൂന്യത ഭഗവാൻ കാണുന്നുണ്ടെന്ന ഒരു വിശ്വാസം മാത്രം.",
+"ഓട്ടപ്പന്തയം: അവൻ എപ്പോഴും ധൃതിയിലായിരുന്നു. ഓഫീസിലേക്ക്, വീട്ടിലേക്ക്, ബിസിനസ്സിലേക്ക്. ഒടുവിൽ ലക്ഷ്യസ്ഥാനത്ത് എത്തിയപ്പോൾ കൂടെയുണ്ടായിരുന്നവരെല്ലാം എപ്പോഴോ വഴിയിൽ വെച്ച് നഷ്ടപ്പെട്ടുപോയിരുന്നു എന്ന് അവൻ തിരിച്ചറിഞ്ഞു.",
+"വേരുകൾ: വലിയ ആൽമരത്തിന്റെ വേരുകൾ മണ്ണിലേക്ക് ആഴ്ന്നിറങ്ങിയിരുന്നു. കാറ്റിലും മഴയിലും മരം വീഴാതെ കാത്തത് ആ വേരുകളാണ്. അതുപോലെ ചില മനുഷ്യരുടെ അദൃശ്യമായ പിന്തുണയാണ് നമ്മെ വീഴാതെ താങ്ങിനിർത്തുന്നത്.",
+"ഫോൺ ഗാലറി: അവളുടെ ഫോണിലെ ഗാലറിയിൽ ആയിരക്കണക്കിന് ഫോട്ടോകൾ ഉണ്ടായിരുന്നു. ഒരൊറ്റ ഫോട്ടോയിൽ പോലും അവൾ ചിരിക്കുന്നുണ്ടായിരുന്നില്ല. എല്ലാം മറ്റുള്ളവരുടെ സന്തോഷങ്ങളുടെ ചിത്രങ്ങളായിരുന്നു, അവൾ വെറും ഒരു ക്യാമറക്കണ്ണായി ഒതുങ്ങി.",
+"തുണി ഉണക്കാനിടൽ: എന്നും രാവിലെ അവൾ ടെറസിൽ വന്ന് തുണി ഉണക്കാനിടും. അത് വെറുമൊരു വീട്ടുജോലിയല്ലായിരുന്നു. അയൽപക്കത്തെ ടെറസിൽ വരാറുള്ള ആ പഴയ സുഹൃത്തിനെ ഒരു നോക്ക് കാണാനുള്ള അവളുടെ ഏക വഴിയായിരുന്നു അത്.",
+"കടലാസ് പൂക്കൾ: അവൾ വീട് മുഴുവൻ പ്ലാസ്റ്റിക് പൂക്കൾ കൊണ്ട് അലങ്കരിച്ചു. അവ ഒരിക്കലും വാടിയില്ല, പക്ഷെ അവയ്ക്കൊരിക്കലും സുഗന്ധം പരത്താനും കഴിഞ്ഞില്ല. ജീവനില്ലാത്ത ചില ബന്ധങ്ങൾ പോലെ.",
+"പാതിവഴി: അവർ യാത്ര തുടങ്ങിയത് ഒരുമിച്ചായിരുന്നു. പക്ഷേ, പാതിവഴിയിൽ വെച്ച് ട്രെയിൻ മാറിയത് ഒരാൾ അറിഞ്ഞില്ല. ഒടുവിൽ ലക്ഷ്യസ്ഥാനത്ത് എത്തുമ്പോൾ താൻ തനിച്ചാണെന്ന തിരിച്ചറിവ് വലിയൊരു ശൂന്യതയായിരുന്നു.",
+"ആകാശമിഠായി: ആ കുട്ടി ആകാശത്തേക്ക് നോക്കി കൈ നീട്ടി. മേഘങ്ങൾ മിഠായിയാണെന്ന് അവൻ കരുതി. വലുതായപ്പോൾ അവൻ അറിഞ്ഞു, ആകാശമിഠായികൾ വെറും ഭാവനയല്ല, മറിച്ച് നമ്മൾ ഒരിക്കലും എത്തിപ്പിടിക്കാനാവാത്ത ചില സ്വപ്നങ്ങളാണെന്ന്.",
+"കരിയിലകൾ: കാറ്റിൽ പറക്കുന്ന കരിയിലകളെപ്പോലെയാണ് ചില മനുഷ്യർ. സ്വന്തമായി ഒരു ദിശയില്ലാതെ, കാലത്തിന്റെ കാറ്റടിക്കുന്ന വഴിയേ ഒഴുകിപ്പോകാൻ വിധിക്കപ്പെട്ടവർ.",
+"പഴയ പാട്ട്: റേഡിയോയിൽ ആ പഴയ പാട്ട് പാടിയപ്പോൾ അമ്മയുടെ കണ്ണുകൾ തിളങ്ങി. ആ പാട്ട് അമ്മയെ കൂട്ടിക്കൊണ്ടുപോയത് കഷ്ടപ്പാടുകൾ ഇല്ലാത്ത, സ്വപ്നങ്ങൾ മാത്രം ബാക്കിയുണ്ടായിരുന്ന ഒരു കൗമാരത്തിലേക്കായിരുന്നു.",
+"നിഴൽക്കൂത്ത്: രാത്രി വെളിച്ചത്തിൽ ചുവരിലെ നിഴലുകൾ വെച്ച് അവൻ കളിച്ചു. പുറംലോകത്തിന്റെ ക്രൂരതകളിൽ നിന്ന് ഒളിച്ചോടി സ്വന്തം നിഴലുകളോട് സംസാരിക്കുന്നതായിരുന്നു അവന് ഏറ്റവും വലിയ ആശ്വാസം.",
+"കടൽത്തീരം: തിരമാലകൾ തീരത്തെ മണലിൽ എന്തൊക്കെയോ എഴുതിവെച്ചു. അടുത്ത തിര വന്ന് അത് മായ്ക്കുകയും ചെയ്തു. മനുഷ്യന്റെ ആഗ്രഹങ്ങളും ഇതുപോലെയാണ്, സമയത്തിന്റെ തിരമാലകൾ എല്ലാം മായ്ച്ചുകളയും.",
+"തൂവൽ: ആകാശത്തു നിന്നും വീണ ഒരു പക്ഷിത്തൂവൽ അവൾ കൈവെള്ളയിൽ ഒതുക്കി. അത് വെറുമൊരു തൂവലല്ലായിരുന്നു, പറക്കണമെന്ന വലിയ ആഗ്രഹത്തോടെ കൂടുവിട്ടിറങ്ങി പരാജയപ്പെട്ട ഒരു പക്ഷിയുടെ അവസാനത്തെ അടയാളമായിരുന്നു.",
+"വിളക്കുമരം: കടലിലെ കപ്പലുകൾക്ക് വഴികാട്ടുന്ന വിളക്കുമരം എപ്പോഴും ഒറ്റയ്ക്കായിരുന്നു. മറ്റുള്ളവർക്ക് വെളിച്ചം കൊടുക്കുമ്പോഴും സ്വന്തം ചുവട്ടിലെ ഇരുട്ടിനെ മാറ്റാൻ അതിന് കഴിഞ്ഞിരുന്നില്ല.",
+"നാണയത്തുട്ട്: ഭിക്ഷക്കാരന്റെ പാത്രത്തിൽ വീണ ആ തിളങ്ങുന്ന നാണയം. അത് കൊടുത്തവൻ സ്വന്തം പാപങ്ങൾ കഴുകിക്കളയാൻ ശ്രമിച്ചപ്പോൾ, വാങ്ങിയവൻ അന്നത്തെ അന്നത്തിനായുള്ള ദൈവത്തിന്റെ കരുണയായി അതിനെ കണ്ടു.",
+"ആത്മകഥ: അയാൾ ഒരു വലിയ പുസ്തകം എഴുതിത്തീർത്തു. പക്ഷേ, അതിലൊരിടത്തും അയാളുടെ യഥാർത്ഥ വേദനകളെക്കുറിച്ച് പരാമർശമില്ലായിരുന്നു. ലോകം കാണാൻ ആഗ്രഹിച്ച ഒരു 'വിജയിയുടെ' കഥ മാത്രമായിരുന്നു അത്.",
+"മരുഭൂമി: അവളുടെ മനസ്സ് ഒരു മരുഭൂമി പോലെയായിരുന്നു. ആരും വരാത്ത, ഒന്നും വിളയാത്ത ഒരിടം. പക്ഷേ, എവിടെയോ ഒളിച്ചിരിക്കുന്ന ഒരു ഒയാസിസ് ഉണ്ടായിരുന്നു, സ്നേഹത്തിന്റെ ഒരു തുള്ളി വെള്ളത്തിനായി ദാഹിക്കുന്ന ഒന്ന്.",
+"പഴയ സൈക്കിൾ: ഉമ്മറത്തിരിക്കുന്ന ആ പഴയ തുരുമ്പിച്ച സൈക്കിൾ. അത് വെറുമൊരു വാഹനമല്ല, ഒരു കാലത്ത് ആ കുടുംബത്തിന്റെ പട്ടിണി മാറ്റാൻ അച്ഛൻ കിലോമീറ്ററുകളോളം ചവിട്ടിത്തീർത്ത വിയർപ്പിന്റെ സ്മാരകമാണ്.",
+"തുണ്ട് കടലാസ്: അവളുടെ പേഴ്സിൽ എപ്പോഴും ഒരു തുണ്ട് കടലാസ് ഉണ്ടായിരുന്നു. അതിൽ കുറിച്ച നമ്പറിലേക്ക് അവൾ ഒരിക്കലും വിളിച്ചില്ല. കാരണം, ആ നമ്പർ തന്നയാൾ ഇപ്പോൾ ഈ ലോകത്തില്ലെന്ന സത്യം ഉൾക്കൊള്ളാൻ അവൾക്കായിരുന്നില്ല.",
+"ചുവർചിത്രം: ആ ഹോട്ടലിന്റെ ചുവരിലെ ചിത്രം എല്ലാവരും ശ്രദ്ധിച്ചു. ഒരു വലിയ കാട്. പക്ഷേ, ആ കാടിനുള്ളിൽ വഴിതെറ്റി നിൽക്കുന്ന ഒരു ചെറിയ കുട്ടിയെ ആരും കണ്ടില്ല, അത് വരച്ച ചിത്രകാരന്റെ ഉള്ളിലെ കുട്ടി തന്നെയായിരുന്നു അത്.",
+"താക്കോൽക്കൂട്ടം: അമ്മയുടെ അരയിൽ എപ്പോഴും ഒരു താക്കോൽക്കൂട്ടം ഉണ്ടാകും. വലിയ സമ്പത്തൊന്നും സൂക്ഷിക്കാനില്ലാത്ത ആ വീട്ടിൽ, ആ താക്കോലുകൾ വീടിന്റെ ഉത്തരവാദിത്തങ്ങൾ സ്വന്തം ചുമലിലേറ്റിയ ഒരു സ്ത്രീയുടെ അധികാരചിഹ്നമായിരുന്നു.",
+"കുപ്പിവളകൾ: പെരുന്നാൾ ചന്തയിൽ നിന്ന് വാങ്ങിയ കുപ്പിവളകൾ അവൾ അണിഞ്ഞു. അവ പൊട്ടുമ്പോൾ അവൾക്ക് സങ്കടം വന്നില്ല. കാരണം, ഓരോ പൊട്ടലിലും അവൾ കേട്ടത് തന്റെ കൗമാരത്തിന്റെ തകർച്ചയുടെ ശബ്ദമായിരുന്നു.",
+"കാത്തിരിപ്പ്: റെയിൽവേ സ്റ്റേഷനിലെ ബെഞ്ചിൽ ഇരിക്കുന്ന ആ വൃദ്ധൻ ഓരോ ട്രെയിൻ വരുമ്പോഴും എഴുന്നേറ്റു നിൽക്കും. ആളുകൾ ഇറങ്ങിത്തീരുമ്പോൾ വീണ്ടും നിരാശയോടെ ഇരിക്കും. വരാമെന്ന് പറഞ്ഞ് പോയ മകൻ വരും എന്ന പ്രതീക്ഷ അയാളെ ജീവനോടെ നിലനിർത്തുന്നു.",
+"പട്ടം: കാറ്റിൽ ഉയർന്നു പറക്കുന്ന പട്ടം. നൂൽ പൊട്ടിയപ്പോൾ അത് ദൂരേക്ക് പറന്നുപോയി. സ്വാതന്ത്ര്യം കിട്ടിയെന്ന് അത് സന്തോഷിച്ചെങ്കിലും, ഒടുവിൽ ചെന്നുവീണത് ആർക്കും വേണ്ടാത്ത ഒരു മുള്ളുകാട്ടിലായിരുന്നു.",
+"പഴയ ചങ്ങാതി: വർഷങ്ങൾക്ക് ശേഷം അവർ വീഥിയിൽ വെച്ച് കണ്ടുമുട്ടി. ഒരു പുഞ്ചിരിയിൽ ഒതുക്കി അവർ നടന്നു നീങ്ങി. പറയാൻ ഒരുപാടുണ്ടായിരുന്നിട്ടും, കാലം അവർക്കിടയിൽ തീർത്ത അകലം വാക്കുകളേക്കാൾ വലുതായിരുന്നു.",
+"നിഴൽ വീണ വഴി: അവൻ എപ്പോഴും ഇരുണ്ട വഴികളിലൂടെ നടക്കാൻ ഇഷ്ടപ്പെട്ടു. വെളിച്ചം തന്റെ മുഖത്തെ സങ്കടങ്ങളെ മറ്റുള്ളവർക്ക് കാണിച്ചു കൊടുക്കുമെന്ന ഭയമായിരുന്നു അവനെ ഇരുട്ടിന്റെ കൂട്ടുകാരനാക്കിയത്.",
+"അമ്മയുടെ തയ്യൽമെഷീൻ: ആ പഴയ തയ്യൽമെഷീൻ കറങ്ങുമ്പോൾ ശബ്ദമുണ്ടാക്കിയിരുന്നു. ആ ഒച്ചയ്ക്കിടയിലാണ് ഞങ്ങൾ വളർന്നത്. അത് വെറുമൊരു ശബ്ദമായിരുന്നില്ല, ഞങ്ങളുടെ സ്വപ്നങ്ങൾക്ക് അടിയുറച്ച തറക്കല്ലിട്ട ഒരു അമ്മയുടെ അധ്വാനത്തിന്റെ ഗീതമായിരുന്നു.",
+"പെരുമഴ: വലിയ മഴയത്ത് കുടയില്ലാതെ നടന്ന ആ പെൺകുട്ടി കരയുകയായിരുന്നു. മഴത്തുള്ളികൾ അവളുടെ കണ്ണീരിനെ ഒഴുക്കിക്കളഞ്ഞു. ലോകത്തിന് മുന്നിൽ തൻ്റെ സങ്കടം മറയ്ക്കാൻ അവൾ കണ്ടെത്തിയ ഒരേയൊരു കൂട്ട് മഴയായിരുന്നു.",
+"ചില്ലുകൂട്: ഷോക്കേസിൽ വെച്ചിരിക്കുന്ന വിലപിടിപ്പുള്ള കളിപ്പാട്ടം. അത് കാണാൻ ഭംഗിയുണ്ടായിരുന്നു, പക്ഷേ അത് എപ്പോഴും അടച്ചിട്ട ഒരിടത്തായിരുന്നു. ആഡംബര വീട്ടിലെ സൗകര്യങ്ങൾക്കിടയിൽ ശ്വാസം മുട്ടുന്ന ചില കുട്ടികളെപ്പോലെ.",
+"ആദ്യത്തെ കവിത: അവൻ എഴുതിയ ആദ്യത്തെ കവിത ആരും വായിച്ചില്ല. അത് ചവറ്റുകുട്ടയിൽ അഭയം പ്രാപിച്ചു. എന്നാൽ, അവന്റെ ഉള്ളിലെ വിപ്ലവത്തിന്റെ ആദ്യത്തെ തീപ്പൊരി ആ കവിതയായിരുന്നു എന്ന് ആരും അറിഞ്ഞില്ല.",
+"മേശപ്പുറത്തെ പൂക്കൾ: എന്നും രാവിലെ ഓഫീസിലെ മേശപ്പുറത്ത് ഒരു റോസാപ്പൂവ് ഇരിക്കാറുണ്ടായിരുന്നു. അത് ആരാണ് വെക്കുന്നതെന്ന് ആർക്കും അറിയില്ലായിരുന്നു. ഒരുപക്ഷേ, ആരും ശ്രദ്ധിക്കാതെ പോകുന്ന ഒരു പ്രണയത്തിന്റെ നിശബ്ദമായ സാന്നിധ്യമായിരുന്നു അത്.",
+"കല്ല്: അരുവിയിലെ വെള്ളത്തിൽ കിടക്കുന്ന കല്ല്. പുറമെ അത് വളരെ മിനുസമുള്ളതായിരുന്നു. എന്നാൽ വർഷങ്ങളോളം വെള്ളത്തിന്റെ ഒഴുക്കിനെ പ്രതിരോധിച്ച്, അതിന്റെ അടികൊണ്ട് രൂപപ്പെട്ടതായിരുന്നു ആ മിനുസം എന്ന് ആരും ചിന്തിച്ചില്ല.",
+"തനിച്ചായ വീട്: ആ വലിയ വീടിന്റെ ഗേറ്റ് എപ്പോഴും പൂട്ടിയിട്ടിരിക്കുകയായിരുന്നു. ഉള്ളിൽ ലൈറ്റുകൾ തെളിയും, പക്ഷേ മനുഷ്യരുടെ ശബ്ദം കേൾക്കില്ല. പ്രവാസിയായ മകൻ അച്ഛനും അമ്മയ്ക്കും വേണ്ടി പണിത ആഡംബരമുള്ള ഒരു തടവറയായിരുന്നു അത്.",
+"പഴയ പുസ്തകം: സെക്കൻഡ് ഹാൻഡ് പുസ്തകക്കടയിൽ നിന്ന് കിട്ടിയ പുസ്തകത്തിൽ ഒരു പേര് എഴുതിയിരുന്നു. ആ പേരിന് താഴെ ഒരു ചെറിയ ഹൃദയചിഹ്നവും. ആ പുസ്തകം വായിച്ചതിനേക്കാൾ കൂടുതൽ ഞാൻ ചിന്തിച്ചത് ആ പേരിന് പിന്നിലെ പ്രണയത്തെക്കുറിച്ചായിരുന്നു.",
+"കൂട്: ആ പക്ഷി എപ്പോഴും കൂടിന് പുറത്തായിരുന്നു. വിസ്താരമുള്ള ആ വലിയ കൂട് അതിന് ഇഷ്ടമല്ലായിരുന്നു. കാരണം, എത്ര വലിയ കൂട്ടിലായാലും സ്വാതന്ത്ര്യമില്ലെങ്കിൽ അത് വെറുമൊരു തടവറയാണെന്ന് ആ പക്ഷിക്ക് അറിയാമായിരുന്നു.",
+"മനസ്സിന്റെ മഷി: അവൻ പേനയെടുത്ത് എഴുതാൻ തുടങ്ങിയപ്പോൾ മഷി തീർന്നുപോയി. പേനയിലെ മഷി തീർന്നാലും ഉള്ളിലെ ചിന്തകളുടെ മഷി ഒരിക്കലും തീരില്ലെന്ന് അവൻ തിരിച്ചറിഞ്ഞു, അവൻ വിരലുകൾ കൊണ്ട് ചുവരുകളിൽ എഴുതാൻ തുടങ്ങി.",
+"അവസാനത്തെ ഇല: ആ വലിയ മരത്തിൽ ഒരൊറ്റ ഇല മാത്രം ബാക്കിയുണ്ടായിരുന്നു. ശരത്കാലത്തിന്റെ കാറ്റിലും അത് വീഴാതെ നിന്നു. ജീവിക്കാനുള്ള കഠിനമായ ആഗ്രഹത്തിന്റെ, അല്ലെങ്കിൽ വരാനിരിക്കുന്ന വസന്തത്തെക്കുറിച്ചുള്ള പ്രതീക്ഷയുടെ പ്രതീകമായിരുന്നു ആ ഇല.",
+"ചായക്കടയിലെ റേഡിയോ: എന്നും രാവിലെ ആ ചായക്കടയിൽ പഴയ പാട്ടുകൾ വെക്കും. ആ പാട്ടുകൾ കേൾക്കാൻ വേണ്ടി മാത്രം വന്നിരിക്കുന്ന ചില വൃദ്ധരുണ്ട്. ചായയുടെ രുചിയേക്കാൾ അവർ തിരഞ്ഞത് തങ്ങളുടെ നഷ്ടപ്പെട്ട യൗവനത്തിന്റെ ഈണങ്ങളായിരുന്നു.",
+"അമ്മയുടെ സാരി: അമ്മയുടെ പഴയ കോട്ടൺ സാരിക്ക് ഒരു പ്രത്യേക മണമുണ്ട്. കഞ്ഞിവെള്ളത്തിന്റെ, വിയർപ്പിന്റെ, പിന്നെ സ്നേഹത്തിന്റെ. ആ സാരി തലയിണയോട് ചേർത്തുപിടിച്ച് കിടക്കുമ്പോൾ കിട്ടുന്ന ഒരു സുരക്ഷിതത്വം മറ്റെവിടെയും കിട്ടില്ല.",
+"തകർന്ന കളിപ്പാട്ടം: കുട്ടി തന്റെ തകർന്ന കളിപ്പാട്ടം നന്നാക്കാൻ ശ്രമിക്കുകയായിരുന്നു. മുതിർന്നവർ അത് കണ്ട് ചിരിച്ചു. എന്നാൽ, തകർന്ന ബന്ധങ്ങളെ അത്ര എളുപ്പത്തിൽ എറിഞ്ഞുകളയാതെ തുന്നിപ്പിടിപ്പിക്കാൻ ശ്രമിക്കുന്ന മനുഷ്യരുടെ കുഞ്ഞുരൂപമായിരുന്നു അവൻ.",
+"വഴിയമ്പലം: പണ്ട് വഴിയാത്രക്കാർ വിശ്രമിച്ചിരുന്ന ആ പഴയ വഴിയമ്പലം ഇന്ന് ആർക്കും വേണ്ടാതെ കിടക്കുന്നു. മനുഷ്യർക്ക് വേഗത കൂടിയപ്പോൾ അവർക്ക് വിശ്രമിക്കാൻ സമയമില്ലാതായി, ഒപ്പം മറ്റുള്ളവരെ നോക്കാൻ കണ്ണുകളുമില്ലാതായി.",
+"കടലാസ് വിമാനം: ക്ലാസ് റൂമിൽ നിന്നും അവൻ പറത്തിവിട്ട കടലാസ് വിമാനം ജനലിലൂടെ പുറത്തേക്ക് പോയി. അത് വെറുമൊരു കളിപ്പാട്ടമല്ലായിരുന്നു, ആ നാല് ചുവരുകൾക്കുള്ളിൽ ഒതുങ്ങാത്ത അവന്റെ വലിയ സ്വപ്നങ്ങളുടെ ആദ്യത്തെ പറക്കലായിരുന്നു.",
+"രാത്രിമഴ: ആരും കാണാതെ പെയ്യുന്ന രാത്രിമഴയ്ക്ക് ഒരു പ്രത്യേക ഭംഗിയുണ്ട്. ലോകം ഉറങ്ങുമ്പോൾ, സ്വന്തം സങ്കടങ്ങൾ ആരോടും പറയാതെ നിശബ്ദമായി പെയ്തുതീർക്കുന്ന ചില മനുഷ്യരെപ്പോലെയാണ് രാത്രിമഴ.",
+"പഴയ ഫോട്ടോ: ആൽബത്തിലെ ആ പഴയ ബ്ലാക്ക് ആൻഡ് വൈറ്റ് ഫോട്ടോയിൽ എല്ലാവരും ചിരിക്കുന്നുണ്ട്. ഇന്ന് ആ ഫോട്ടോയിലുള്ള പലരും ജീവനോടെയില്ല, ബാക്കിയുള്ളവർ തമ്മിൽ സംസാരിക്കാറുമില്ല. നിറങ്ങളില്ലാത്ത ആ പഴയ കാലത്തിനായിരുന്നു കൂടുതൽ ഭംഗി.",
+"വേനൽക്കാലം: കടുത്ത വേനലിൽ ഉണങ്ങി വരണ്ട കിണർ. ആളുകൾ അതിനെ ഉപേക്ഷിച്ചു. പക്ഷേ, ഒരു മഴ പെയ്തപ്പോൾ ആ കിണർ വീണ്ടും നിറഞ്ഞു. മനുഷ്യരും ഇതുപോലെയാണ്, പ്രതിസന്ധികളിൽ തളർന്നാലും ഒരു നല്ല കാലം അവരെ വീണ്ടും ഉണർത്തും.",
+"ചെറിയ പുഞ്ചിരി: ബസ്സിൽ വെച്ച് ആ അപരിചിതൻ എനിക്ക് തന്ന ചെറിയൊരു പുഞ്ചിരി എന്റെ അന്നത്തെ ദിവസത്തെ മുഴുവൻ സങ്കടങ്ങളെയും മായ്ച്ചുകളഞ്ഞു. നമ്മൾ കൊടുക്കുന്ന ചെറിയൊരു പരിഗണന ചിലപ്പോൾ മറ്റൊരാൾക്ക് വലിയൊരു ജീവശ്വാസമായിരിക്കും.",
+"നിശബ്ദ വരികൾ: അവൾ കവിതകളെഴുതിയത് ഡയറിയുടെ അവസാന പേജുകളിലായിരുന്നു. ആരും കാണാതിരിക്കാൻ അവൾ അത് ഒളിപ്പിച്ചു വെച്ചു. പ്രകടിപ്പിക്കാൻ കഴിയാത്ത വികാരങ്ങൾ അക്ഷരങ്ങളായി ജീവിക്കുന്ന ചില രഹസ്യ തടവറകൾ എല്ലാ മനുഷ്യരിലും ഉണ്ട്.",
+"കടൽത്തീരത്തെ കാൽപ്പാടുകൾ: മണലിൽ പതിഞ്ഞ ആ കാൽപ്പാടുകൾ അടുത്ത തിരമാലയിൽ ഇല്ലാതായി. നമ്മൾ ഈ ഭൂമിയിൽ ഉണ്ടാക്കുന്ന അടയാളങ്ങളും ഇതുപോലെയാണ്. കാലമാകുന്ന വലിയ തിര വന്ന് എല്ലാം മായ്ച്ചുകളയും, ഓർമ്മകൾ മാത്രം ബാക്കിയാകും.",
+"തുരുമ്പിച്ച പൂട്ടുകൾ: ആ പഴയ പെട്ടി തുറക്കാൻ മക്കൾ ഒരുപാട് ശ്രമിച്ചു. ഒടുവിൽ അത് പൊളിച്ചപ്പോൾ ഉള്ളിൽ കുറച്ചു പഴയ കത്തുകളും ഉണങ്ങിയ പൂക്കളും മാത്രമായിരുന്നു. അവർ തിരഞ്ഞ സ്വർണ്ണത്തേക്കാൾ വിലപിടിപ്പുള്ള ഒരായുസ്സിന്റെ ഓർമ്മകളായിരുന്നു അത്.",
+"പൂമ്പാറ്റ: ചിറകറ്റ വീണ ആ പൂമ്പാറ്റയെ ഒരു കുട്ടി കയ്യിലെടുത്തു. അതിന് പറക്കാൻ കഴിയില്ലെന്ന് അറിഞ്ഞിട്ടും അവൻ അതിനെ പൂക്കളിലിരുത്തി. ലോകം തള്ളിക്കളയുന്നവരെ ചേർത്തുപിടിക്കാൻ ചില കുഞ്ഞു മനസ്സുകൾക്കേ കഴിയൂ.",
+"അവസാനത്തെ കപ്പ് ചായ: അവർ ഒരുമിച്ചിരുന്ന് കുടിച്ച അവസാനത്തെ ചായയായിരുന്നു അത്. രണ്ടുപേരും ഒന്നും സംസാരിച്ചില്ല. പരസ്പരം വിട്ടുപിരിയുന്നതിന്റെ വേദന ആ ചായക്കപ്പിലെ പുകപോലെ വായുവിൽ അലിഞ്ഞുചേരുകയായിരുന്നു.",
+"ചുമരിലെ കലണ്ടർ: വർഷം കഴിഞ്ഞിട്ടും ആ പഴയ കലണ്ടർ മാറ്റാൻ വൃദ്ധൻ സമ്മതിച്ചില്ല. കാരണം, ആ വർഷത്തിലെ ഒരു പ്രത്യേക ദിവസമാണ് മകൻ വീട്ടിൽ നിന്നും ഇറങ്ങിപ്പോയത്. സമയം അവിടെ നിന്നുപോയതുപോലെയായിരുന്നു അയാൾക്ക്.",
+"നിഴലുകളുടെ നൃത്തം: മെഴുകുതിരി വെളിച്ചത്തിൽ ചുവരിലെ നിഴലുകൾ ചലിക്കുന്നത് അവൻ നോക്കിനിന്നു. വെളിച്ചം അണഞ്ഞപ്പോൾ നിഴലുകളും ഇല്ലാതായി. താല്ക്കാലികമായ പ്രഭാവത്തിൽ കൂടെക്കൂടുന്ന സൗഹൃദങ്ങളുടെ നേർച്ചിത്രമായിരുന്നു അത്.",
+"വഴിയോരത്തെ പൂവ്: ആരും ശ്രദ്ധിക്കാതെ വഴിയരികിൽ വിരിഞ്ഞു നിൽക്കുന്ന ആ ചെറിയ കാട്ടുപൂവ്. അതിന് വലിയ സുഗന്ധമില്ലായിരിക്കാം, പക്ഷേ പ്രകൃതിയുടെ വലിയൊരു സൗന്ദര്യം ആ ചെറിയ പൂവിലും ഒളിഞ്ഞിരിപ്പുണ്ടായിരുന്നു.",
+"അപരിചിതരുടെ നഗരം: വലിയൊരു നഗരത്തിലെ തിരക്കിൽ അവൻ നടന്നു. ചുറ്റും ആയിരക്കണക്കിന് മനുഷ്യർ. പക്ഷേ, അവന് അനുഭവപ്പെട്ടത് വലിയൊരു ഏകാന്തതയായിരുന്നു. മനുഷ്യർ പരസ്പരം നോക്കാതെ ഓടുന്ന ഒരിടം.",
+"തുറന്ന പുസ്തകം: നമ്മുടെ ചുറ്റുമുള്ള ഓരോ മനുഷ്യനും ഓരോ തുറന്ന പുസ്തകമാണ്. കവർചിത്രം കണ്ട് നമ്മൾ വിലയിരുത്തുന്ന പല പുസ്തകങ്ങളുടെയും ഉള്ളിലെ പേജുകളിൽ വലിയൊരു കണ്ണീർക്കടൽ ഒളിഞ്ഞിരിപ്പുണ്ടാകും. അവരെ വായിച്ചറിയാൻ ശ്രമിക്കുക എന്നതാണ് നമ്മുടെ കടമ."
 
 
 
@@ -109,139 +107,150 @@ const quotes = [
 
 ];
 
-const quoteElement =
-document.getElementById(
-"quote"
-);
+// Defensive initialization for quotes + story sharing + reload detection
 
-function fitText(){
+(function initQuotesModule(){
+    function initQuotes(){
+        console.log('initQuotes: starting');
+        const quoteElement = document.getElementById('quote');
+        const container = document.getElementById('quoteContainer');
+        if (!quoteElement || !container){
+            console.error('initQuotes: required elements missing', {quoteElement, container});
+            return;
+        }
 
-const container =
-document.getElementById(
-"quoteContainer"
-);
+        function fitText(){
+            let size = 34;
+            quoteElement.style.fontSize = size + 'px';
+            while (quoteElement.scrollHeight > container.clientHeight && size > 16){
+                size--;
+                quoteElement.style.fontSize = size + 'px';
+            }
+        }
 
-let size = 34;
+        function randomQuote(){
+            try{
+                const quote = quotes[Math.floor(Math.random() * quotes.length)];
+                quoteElement.innerText = quote || 'No quotes available';
+                fitText();
+            }catch(e){
+                console.error('randomQuote error', e);
+            }
+        }
 
-quoteElement.style.fontSize =
-size + "px";
+        window.randomQuote = randomQuote;
+        window.fitText = fitText;
 
-while(
+        randomQuote();
+        window.addEventListener('resize', fitText);
+        console.log('initQuotes: completed');
+    }
 
-quoteElement.scrollHeight >
-container.clientHeight
+    if (document.readyState === 'loading'){
+        document.addEventListener('DOMContentLoaded', initQuotes);
+    } else {
+        setTimeout(initQuotes, 0);
+    }
 
-&&
-
-size > 16
-
-){
-
-size--;
-
-quoteElement.style.fontSize =
-size + "px";
-
-}
-
-}
-
-function randomQuote(){
-
-const quote =
-
-quotes[
-Math.floor(
-Math.random()
-*
-quotes.length
-)
-];
-
-quoteElement.innerText =
-quote;
-
-fitText();
-
-}
-
-randomQuote();
-
-window.addEventListener(
-"resize",
-fitText
-);
+})();
 
 async function shareStory(){
+    const capture = document.getElementById('storyCapture');
+    if (!capture){
+        console.error('shareStory: #storyCapture not found');
+        return;
+    }
 
-const capture =
-document.getElementById(
-"storyCapture"
-);
+    try{
+        const canvas = await html2canvas(capture, {scale:5, backgroundColor:'#1717df', useCORS:true});
+        canvas.toBlob(async (blob) => {
+            if (!blob){
+                console.error('shareStory: canvas.toBlob returned null');
+                return;
+            }
 
-const canvas =
-await html2canvas(
-capture,
-{
-scale:5,
-backgroundColor:"#1717df",
-useCORS:true
-}
-);
+            const file = new File([blob], 'unscanned-codes-story.png', {type:'image/png'});
 
-canvas.toBlob(
-
-async(blob)=>{
-
-const file =
-new File(
-[blob],
-"unscanned-codes-story.png",
-{
-type:"image/png"
-}
-);
-
-if(
-
-navigator.canShare &&
-
-navigator.canShare({
-files:[file]
-})
-
-){
-
-await navigator.share({
-
-files:[file],
-
-title:
-"Unscanned Codes"
-
-});
-
-}else{
-
-const url =
-URL.createObjectURL(blob);
-
-const a =
-document.createElement("a");
-
-a.href = url;
-
-a.download =
-"unscanned-codes-story.png";
-
-a.click();
-
+            if (navigator.canShare && navigator.canShare({files:[file]})){
+                try{ await navigator.share({files:[file], title:'Unscanned Codes'}); } catch(e){ console.error('shareStory share failed', e); }
+            } else {
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'unscanned-codes-story.png';
+                a.click();
+                URL.revokeObjectURL(url);
+            }
+        });
+    }catch(e){
+        console.error('shareStory error', e);
+    }
 }
 
-}
+// Refresh detection and login marker (robust + debug logs)
+(function(){
+    function detectReload(){
+        try{
+            const perf = window.performance || {};
+            let isReload = false;
+            if (typeof perf.getEntriesByType === 'function'){
+                const navEntries = perf.getEntriesByType('navigation');
+                if (navEntries && navEntries.length){
+                    console.log('refresh-detect: navigation.type=', navEntries[0].type);
+                    isReload = navEntries[0].type === 'reload';
+                }
+            }
+            if (!isReload && perf.navigation){
+                console.log('refresh-detect: performance.navigation.type=', perf.navigation.type);
+                isReload = perf.navigation.type === 1;
+            }
+            // Fallback: check unload flag set during beforeunload
+            try{
+                const lastUnload = sessionStorage.getItem('lastUnload');
+                if (lastUnload === '1'){
+                    console.log('refresh-detect: lastUnload flag present');
+                    isReload = true;
+                }
+            }catch(e){ /* ignore */ }
+            return isReload;
+        }catch(e){
+            console.log('refresh-detect error', e);
+            return false;
+        }
+    }
 
-);
+    function clearUnloadFlag(){
+        try{ sessionStorage.removeItem('lastUnload'); }catch(e){}
+    }
 
-}
+    function onLoadHandler(){
+        const logged = sessionStorage.getItem('loggedIn') === '1';
+        const reloaded = detectReload();
+        console.log('refresh-detect: logged=', logged, 'reloaded=', reloaded);
+        if (logged && reloaded){
+            alert('sorry! unable to refresh. Scan again');
+            sessionStorage.removeItem('loggedIn');
+        }
+        // clear unload flag after handling
+        clearUnloadFlag();
+    }
+
+    window.markLoggedIn = function(){
+        sessionStorage.setItem('loggedIn','1');
+        console.log('markLoggedIn: flag set');
+    };
+
+    // set an unload flag so we can detect reloads reliably
+    window.addEventListener('beforeunload', function(){
+        try{ sessionStorage.setItem('lastUnload','1'); }catch(e){}
+    });
+
+    if (document.readyState === 'complete' || document.readyState === 'interactive'){
+        setTimeout(onLoadHandler,0);
+    } else {
+        document.addEventListener('DOMContentLoaded', onLoadHandler);
+    }
+
+})();
 
 
